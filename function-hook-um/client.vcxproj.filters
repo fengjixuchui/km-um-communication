@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{23834ea1-b844-4221-bd7d-f0f91e2d350c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{9a535f76-fb14-475d-ab77-25e8d08421a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{4431e252-2bf9-42ae-80ad-41e743157c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nuklear">
+      <UniqueIdentifier>{bed9a138-fdab-4280-8321-bf4bf6eed9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\kernel.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="util\process.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="nuklear\nuklear_d3d11.cpp">
+      <Filter>nuklear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\kernel.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="game\offsets.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="util\process.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h" />
+    <ClInclude Include="nuklear\nuklear_d3d11_vertex_shader.h">
+      <Filter>nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear\nuklear.h">
+      <Filter>nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear\nuklear_d3d11.h">
+      <Filter>nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear\nuklear_d3d11_pixel_shader.h">
+      <Filter>nuklear</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
